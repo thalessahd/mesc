@@ -1,5 +1,5 @@
 # mesc
-Repositório com códigos de exercícios, trabalhos e projetos feitos por mim durante o Programa de Mestrado em Engenharia de Produção e Sistemas Computacionais da UFF campus Rio das Ostras. 
+Repositório com códigos de resolução de exercícios, trabalhos e projetos feitos por mim durante o Programa de Mestrado em Engenharia de Produção e Sistemas Computacionais da UFF campus Rio das Ostras. 
 
 ## Instalando virtualenv (Windows)
 Executar o comando abaixo na raíz do projeto
