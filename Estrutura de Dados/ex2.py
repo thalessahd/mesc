@@ -72,7 +72,6 @@ print(getEmailsOfRegularStudents(alunos))
 from functools import reduce
 
 def calculateStudentAverage(values):
-    print(alunos)
     result = reduce(lambda x,y: x+y['cr'], values, 0)
     return round(result/len(values), 2)
 
