@@ -1,4 +1,19 @@
 class Skill():
+    """
+    Representa um skill do jogo. Uma habilidade que pode ser utilizada pelos Players caso cumpram
+    com os requisitos.
+
+    Attributes
+    ----------
+    name : str
+        nome da skill
+    type : Enum
+        tipo da skill podendo ser uma das constantes [TYPE_DAMAGE, TYPE_HEALING, TYPE_BUFF, TYPE_DEBUFF]
+    value : int
+        valor de ação da skill, seu efeito varia dependendo do tipo
+    description : str
+        descrição da skill
+    """
     TYPE_DAMAGE = 'Damage'
     TYPE_HEALING = 'Healing'
     TYPE_BUFF = 'Buff'

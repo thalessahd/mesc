@@ -1,4 +1,18 @@
 class Item():
+    """
+    Representa um item do jogo.
+
+    Attributes
+    ----------
+    name : str
+        nome da criatura
+    type : Enum
+        tipo do item podendo ser uma das constantes [TYPE_DAMAGE, TYPE_HEALING]
+    value : int
+        valor de ação daquele item, seu efeito varia dependendo do tipo
+    description : str
+        descrição do item
+    """
     TYPE_DAMAGE = 'Damage'
     TYPE_HEALING = 'Healing'
 
